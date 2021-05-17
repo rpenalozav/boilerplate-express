@@ -7,7 +7,6 @@ absolutePath = __dirname + '/views/index.html'
 
 app.get('/', function (req, res) {
     res.sendFile(absolutePath)
-    console.log(res)
 })
 
 
